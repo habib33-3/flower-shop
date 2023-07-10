@@ -113,13 +113,32 @@
 .service-section {
   width: 80%;
   margin: auto;
-  border-radius: 8px;
+  border-radius: 7px;
   background: rgba(48, 46, 46, 0.11);
   padding: 40px;
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
-.service{
+.service {
+  text-align: center;
+}
+
+.deal-section {
+  /* width: 80%;
+  margin: auto; */
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  padding: 0 140px;
+  /* justify-content: space-between; */
+  /* gap: 140px; */
+}
+
+.deal-text{
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    margin-right: 140px;
+    align-items: center;
+    gap: 20px;
 }
