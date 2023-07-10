@@ -172,6 +172,7 @@
   background-repeat: no-repeat;
   width: 80%;
   margin: auto;
+  margin-bottom: 130px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -180,7 +181,7 @@
   padding: 50px 0;
 }
 
-.latest-deal-title{
+.latest-deal-title {
   margin: 0;
 }
 
@@ -193,4 +194,36 @@ input {
   background: #fff;
   width: 30%;
   padding: 15px 100px;
+}
+
+
+/* Footer Section */
+.footer-section {
+  background-color: black;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  padding: 126px 0;
+}
+
+.footer-title {
+  font-size: 48px;
+  font-weight: 800;
+  color: white;
+}
+
+.footer-highlight {
+  color: rgba(170, 43, 70, 0.753);
+}
+
+.footer-description {
+  color: rgba(250, 243, 243, 0.863);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer-copyright {
+  color: rgba(255, 255, 255, 0.4);
 }
