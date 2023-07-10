@@ -17,11 +17,25 @@
   background: #e554ad96;
 }
 
+.description {
+  color: rgba(14, 13, 13, 0.945);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.section-title {
+  color: rgba(58, 56, 51, 0.9);
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
 /* Banner Section */
 
 .banner-section {
   height: 100vh;
-  background-color: rgba(229, 84, 115, 0.1);
+  background-color: rgba(230, 103, 131, 0.1);
   gap: 95px;
 }
 
@@ -42,9 +56,46 @@
   font-weight: 800;
 }
 
-.banner-description {
-  color: rgba(34, 32, 32, 0.945);
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 20px;
+/* Feature Section */
+
+.feature-section {
+  height: 100vh;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.feature-flowers {
+  margin-top: 50px;
+  gap: 10px;
+}
+
+.flower {
+  border-radius: 300px 300px 0px 0px;
+  height: 420px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flower-img {
+  height: 350px;
+  width: 180px;
+}
+
+.section-description {
+  width: 50%;
+  margin: auto;
+}
+
+.flower-text {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration-line: underline;
+  margin-top: 15px;
+}
+
+.flower-1 {
+  background: rgba(167, 33, 98, 0.15);
 }
