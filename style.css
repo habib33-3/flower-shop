@@ -43,9 +43,16 @@ text {
 /* Banner Section */
 
 .banner-section {
-  height: 100vh;
+  display: flex;
+  align-items: flex-end;
   background-color: rgba(230, 103, 131, 0.1);
-  gap: 95px;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.banner-photo {
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .banner-img {
@@ -55,11 +62,13 @@ text {
 }
 
 .banner-text {
-  padding-left: 200px;
+  padding-left: 150px;
+  padding-bottom: 50px;
   flex-direction: column;
   gap: 30px;
   align-items: baseline;
 }
+
 .banner-title {
   font-size: 80px;
   font-weight: 800;
@@ -139,8 +148,6 @@ text {
 /* Hot Deal section */
 
 .deal-section {
-  /* width: 80%;
-  margin: auto; */
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
   padding: 0 140px;
