@@ -1,6 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;400;700;800&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+}
+
+text {
+  font-family: "Fira Sans", sans-serif;
 }
 
 /* Shared */
@@ -120,6 +126,7 @@
   padding: 40px;
   margin-top: 40px;
   margin-bottom: 40px;
+  padding-left: 50px;
 }
 
 .service {
@@ -175,6 +182,7 @@
   margin-bottom: 80px;
   text-align: center;
   padding: 20px;
+  border-radius: 15px;
 }
 
 .review {
